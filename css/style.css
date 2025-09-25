@@ -31,9 +31,12 @@ a{
 .container{
     background-color: rgba(255, 255, 255, 1);
     width: 100%;
-    max-height: 80px;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+.header .container {
+    max-height: 80px;
 }
 
 body{
@@ -162,4 +165,76 @@ body{
 .paper__photo {
     display: block;
     max-width: 100%;
+}
+
+.info{
+    background-color: rgba(235, 235, 235, 1);
+    padding-top: 90px;
+}
+
+.info__container {
+    padding-left: 165px;
+    padding-right: 165px;
+    margin: 0 auto;
+}
+
+.info__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 90px;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+    border-top: 1px solid rgba(76, 88, 102, 1);
+    padding-top: 30px;
+}
+
+.info__title{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.info__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(133, 133, 155, 1);
+}
+
+.max__block {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main__photo {
+    display: block;
+    height: auto;
+    max-width: 50%; /* чтобы картинка не разъезжалась */
+}
+
+.max__content {
+    margin-left: 30px;
+    flex: 1; /* текст занимает всё оставшееся место */
+    text-align: left;
+}
+
+.title__max {
+    color: rgba(102, 102, 102, 1);
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0;   /* убрал 149px */
+    margin-bottom: 20px;
+}
+
+.text__max {
+    color: rgba(133, 133, 155, 1);
+    font-weight: 400;
+    font-size: 18px;
 }
