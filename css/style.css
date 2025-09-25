@@ -47,9 +47,6 @@ body{
     border-bottom: 1px solid rgba(76, 88, 102, 1);
 }
 
-.header-main{
-}
-
 .header__inner {
     display: flex;
     align-items: center;
@@ -82,6 +79,7 @@ body{
 .menu__list-link{
     color: rgba(76, 88, 102, 1);
     font-size: 20px;
+    font-weight: 400;
 }
 
 .footer{
@@ -124,4 +122,44 @@ body{
 
 .main{
     flex-grow: 1;
+}
+
+.top{
+    display: grid;
+}
+
+.top__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.top__text {
+    max-width: 600px;
+    padding-left: 165px;
+}
+
+.title{
+    margin-top: 130px;
+    font-size: 60px;
+    font-weight: 400;
+    color: rgba(76, 88, 102, 1);
+}
+
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(133, 133, 155, 1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top__image {
+    padding-right: 165px;
+}
+
+.paper__photo {
+    display: block;
+    max-width: 100%;
 }
