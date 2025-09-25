@@ -8,6 +8,11 @@ html{
     padding: 0;
 }
 
+html,
+body{
+    height: 100%;
+}
+
 ul{
     list-style: none;
 }
@@ -15,6 +20,12 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
@@ -71,4 +82,46 @@ body{
 .menu__list-link{
     color: rgba(76, 88, 102, 1);
     font-size: 20px;
+}
+
+.footer{
+    background-color: rgba(76, 88, 102, 1);
+    width: 100%;
+    padding: 0;
+    margin-bottom: 21px;
+}
+
+.footer__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 28px 20px 26px;
+}
+
+.logo__footer{
+    padding-left: 0;
+}
+
+.footer__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 1089px;
+}
+
+.company__name{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(76, 88, 102, 1);
+}
+
+.company__reg {
+    color: rgba(235, 235, 235, 1);
+}
+
+.main{
+    flex-grow: 1;
 }
