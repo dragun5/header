@@ -173,9 +173,10 @@ body{
 }
 
 .info__container {
+    max-width: 1460px;
+    margin: 0 auto;
     padding-left: 165px;
     padding-right: 165px;
-    margin: 0 auto;
 }
 
 .info__list {
@@ -216,12 +217,12 @@ body{
 .main__photo {
     display: block;
     height: auto;
-    max-width: 50%; /* чтобы картинка не разъезжалась */
+    max-width: 50%;
 }
 
 .max__content {
     margin-left: 30px;
-    flex: 1; /* текст занимает всё оставшееся место */
+    flex: 1;
     text-align: left;
 }
 
@@ -229,7 +230,7 @@ body{
     color: rgba(102, 102, 102, 1);
     font-weight: 400;
     font-size: 40px;
-    margin-top: 0;   /* убрал 149px */
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
@@ -237,4 +238,56 @@ body{
     color: rgba(133, 133, 155, 1);
     font-weight: 400;
     font-size: 18px;
+}
+
+.paper__products {
+    padding-top: 90px;
+}
+
+.paper__products__container {
+    max-width: 1460px;
+    margin: 0 auto;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.paper__products__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.paper__products__item {
+    flex: 1;
+    max-width: 300px;
+}
+
+.products__photo{
+    margin-bottom: 20px;
+}
+
+.products__title{
+    margin-bottom: 8px;
+    color: rgba(102, 102, 102, 1);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.products__circulation{
+    margin-bottom: 8px;
+    color: rgba(181, 181, 189, 1);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.products__description{
+    margin-bottom: 20px;
+    color: rgba(133, 133, 155, 1);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.button__photo{
+    margin-bottom: 90px;
 }
