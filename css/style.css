@@ -325,3 +325,62 @@ body{
     max-height: 100%;
     object-fit: contain;
 }
+.sketchbook {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 90px 0 0 0;
+}
+
+.sketchbook__container {
+    margin: 0 auto;
+    max-width: 1460px;
+    padding: 0 165px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sketchbook__content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.sketchbook__title {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    margin-bottom: 8px;
+}
+
+.sketchbook__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(133, 133, 155, 1);
+    margin-bottom: 30px;
+}
+
+.sketchbook__photos {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketchbook__photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.page__photo {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: auto;
+    pointer-events: none;
+}
+
